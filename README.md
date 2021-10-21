@@ -32,34 +32,30 @@ From the Application directory
 3. From go-server directory, open a terminal and run
    `go run main.go`
 4. From client directory,  
-   a. install all the dependencies using `npm install`  
-   b. start client `npm start`
+   - start client `npm start` (if installed `npm install`)
 
-## :panda_face: Walk through the application
+
+##  Walk through the application
 
 Open application at http://localhost:3000
-
-### Index page
-
-![](https://github.com/schadokar/go-to-do-app/blob/master/images/index.PNG)
 
 ### Create task
 
 Enter a task and submit
 
 ### A task has the following information:
-ID: Automatic incremental.
-Task Title: Task title
-Status: In Progress, Urgent, Done, Overdue
-Description: Task description. If there are expressions such as "Acil, ACİLLLLL" in the Description section, the status is set to Urgent! 
-Category: General is the default category. Adding and deleting can be done.
-Progress: Pending, On Track, Some Disruption, Discontinued, Completed
-Deadline: End date.
-CreatedAt: Created date (default: time.now())
-UpdatedAt: Date updated
-Remaining Day: deadline - createdAt 
+- ID: Automatic incremental.
+- Task Title: Task title
+- Status: In Progress, Urgent, Done, Overdue
+- Description: Task description. If there are expressions such as "Acil, ACİLLLLL" in the Description section, the status is set to Urgent! 
+- Category: General is the default category. Adding and deleting can be done.
+- Progress: Pending, On Track, Some Disruption, Discontinued, Completed
+- Deadline: End date.
+- CreatedAt: Created date (default: time.now())
+- UpdatedAt: Date updated
+- Remaining Day: deadline - createdAt 
+
+
 # License
 
 MIT License
-
-Copyright (c) 2019 Shubham Chadokar
